@@ -15,9 +15,6 @@
 
       ["app/etc/modules/Facebook_AdsExtension.xml", "app/etc/modules/Facebook_AdsExtension.xml"],
 
-      ["app/locale/en_US/Mageplaza_BetterBlog.csv", "app/locale/en_US/Mageplaza_BetterBlog.csv"],
-
-
       ["app/design/adminhtml/default/default/layout/facebook_ads_extension.xml", "app/design/adminhtml/default/default/layout/facebook_ads_extension.xml"],
       ["app/design/adminhtml/default/default/template/facebook_ads_extension/fae_debug.phtml", "app/design/adminhtml/default/default/template/facebook_ads_extension/fae_debug.phtml"],
       ["app/design/adminhtml/default/default/template/facebook_ads_extension/fae_index.phtml", "app/design/adminhtml/default/default/template/facebook_ads_extension/fae_index.phtml"],
