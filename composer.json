@@ -1,0 +1,32 @@
+{
+  "name": "stagem/magento-facebook-extension",
+  "type": "magento-module",
+  "license": "MIT Licence",
+  "description": "A first-party extension plugin built for Magento. This plugin will install a pixel on your site, upload your products into a catalog for use in FB ads, and (optionally) auto-create an FB shop with your products. https://www.facebook.com/business/help/532749253576163",
+  "authors": [
+    {
+      "name": "Vlad Kozak",
+      "email": "vk@stagem.com.ua"
+    }
+  ],
+  "extra": {
+    "map": [
+      ["app/code/community/Facebook/AdsExtension/", "app/code/community/Facebook/AdsExtension/"],
+
+      ["app/etc/modules/Facebook_AdsExtension.xml", "app/etc/modules/Facebook_AdsExtension.xml"],
+
+      ["app/locale/en_US/Mageplaza_BetterBlog.csv", "app/locale/en_US/Mageplaza_BetterBlog.csv"],
+
+
+      ["app/design/adminhtml/default/default/layout/facebook_ads_extension.xml", "app/design/adminhtml/default/default/layout/facebook_ads_extension.xml"],
+      ["app/design/adminhtml/default/default/template/facebook_ads_extension/fae_debug.phtml", "app/design/adminhtml/default/default/template/facebook_ads_extension/fae_debug.phtml"],
+      ["app/design/adminhtml/default/default/template/facebook_ads_extension/fae_index.phtml", "app/design/adminhtml/default/default/template/facebook_ads_extension/fae_index.phtml"],
+
+      ["app/design/frontend/base/default/layout/facebook_ads_extension.xml", "app/design/frontend/base/default/layout/facebook_ads_extension.xml"],
+      ["app/design/frontend/base/default/template/facebook_ads_extension/", "app/design/frontend/base/default/template/facebook_ads_extension/"],
+
+      ["js/Facebook/AdsExtension/", "js/Facebook/AdsExtension/"],
+      ["skin/adminhtml/base/default/Facebook/AdsExtension/", "skin/adminhtml/base/default/Facebook/AdsExtension/"]
+    ]
+  }
+}
